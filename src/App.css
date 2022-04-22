@@ -1,0 +1,48 @@
+
+
+.App {
+  text-align: center;
+  
+}
+
+h1 {
+  color: #F13932;
+  text-shadow: 1px 1px black;
+  padding: 20px 0;
+  border-bottom: 2px solid #F13932;
+  width: 50%;
+  margin-left: 25%;
+}
+
+#menu-form {
+  color: white;
+  background: rgba(0, 0, 0, 0.486);
+  width: 50%;
+  margin-left: 25%;
+  padding: 20px 0;
+}
+
+#menu-form label{
+  color: white;
+  font-size: 1.6em;
+  margin: 20px;
+  
+}
+
+#menu-form button {
+  background: hsla(2, 87%, 57%, 0.9);
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#menu-form button:hover {
+  background: #F13932;
+}
+
+
+
