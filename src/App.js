@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-     <h1>My React Practice Page</h1>
+     <h1>MTG: Card Guessing Game</h1>
      <Form cardSet={cardSet} setCardSet={setCardSet} difficulty={difficulty} setDifficulty={setDifficulty}  color={color} setColor={setColor}  cardData={cardData} setCardData={setCardData} nameData={nameData} setNameData={setNameData} start={start} setStart={setStart}/>
      <Game cardData={cardData} start={start} score={score} setScore={setScore} difficulty={difficulty} selected={selected} setSelected={setSelected} prevCard={prevCard} setPrevCard={setPrevCard} nameData={nameData} setNameData={setNameData} />
     </div>
